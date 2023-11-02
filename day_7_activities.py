@@ -45,7 +45,7 @@ import random
 #         counter +=1
 # print("Game Over")
 
-
+# above one is the correct one
 # while True:
 #     if guess < rand_num:
 #         print("You guessed correctly!")
