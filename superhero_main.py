@@ -18,6 +18,7 @@ from superhero import Superhero
 
 
 ironman = Superhero("Ironman", "Tony Stark","intelligance", "Thanos" )
+# superhero object 
 
 hulk = Superhero("Hulk", "Bruce Banner", "SMASH!", "Loki")
 
@@ -32,3 +33,13 @@ hulk.introduce_superhero()
 spiderman.introduce_superhero()
 blackwidow.introduce_superhero()
 captinmarvel.introduce_superhero()
+
+spiderman.set_secret_lair("Aunt May House")
+hulk.set_secret_lair("Lab")
+ironman.set_secret_lair("House")
+
+print(spiderman.secret_lair)
+
+spiderman.transform()
+
+# list_of_lairs = [spiderman.get_secret_lair(), hulk.get_secret_lair(), ironman.get_secret_lair()]

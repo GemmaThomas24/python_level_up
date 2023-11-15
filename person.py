@@ -23,6 +23,9 @@ class Person():
               print("Please enter your job again")
               job_title = input()
          self.job = job_title
+    
+    def get_age(self):
+         return self.age
 
     def set_new_name(self, person_name):
             self.name = person_name
