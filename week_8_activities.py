@@ -1,5 +1,8 @@
 import statistics
 # Week 8 Day 11
+#--------------------------------------------------------------------
+# ACTIVITY 1
+#--------------------------------------------------------------------
 # Create a function that calcuates a range of interger data in a list
 
 # number_list = [4,5,6,6,8,12,15,17,17,17,19,21]
@@ -34,9 +37,9 @@ def calculate_range(data):
 
 
 # calculate_range(number_list)
-
+# --------------------------------------------------------------------
 # Activity 2
-
+# --------------------------------------------------------------------
 # now create functions that calculate the Mean, Mode and Median
 
 # MEAN
@@ -80,9 +83,9 @@ def calculate_mode(data):
 # result = calculate_mode(number_list)
 
 # print(result)
-
+# ---------------------------------------------
 # # Activity 3
-
+# ---------------------------------------------
 # # megabytes_sales 
 megabytes_sales = [256.85, 295.65, 248.25, 275.90, 273.35, 282.40, 257.20, 294.90, 263.90, 2316.50, 459.25, 567.85, 97.80, 72.50]
 # # sunday figures- 97.80, 72.50
@@ -92,3 +95,18 @@ calculate_mean(megabytes_sales)
 calculate_median(megabytes_sales)
 calculate_mode(megabytes_sales)
 calculate_range(megabytes_sales)
+
+# ORIGINAL RESULTS
+# This is the mean - 425.88
+# This is the median - 274.62
+# This is the mode - 256.85
+# The range is - 2244.00
+
+# SUNDAY RESULTS
+# This is the mean - 482.67
+# This is the median - 279.15
+# This is the mode - 256.85
+# The range is - 2068.25
+
+# Not much difference- shows us Sunday is the day we earn the least and doesn't have a huge impact on overall figures- do we need to be open on Sundays? 
+# or what can we do better?
